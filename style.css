@@ -14,3 +14,23 @@ html{
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+header{
+    .marquee{
+        height: 10rem;
+        width: 85rem;
+        background-color: #7d7373;
+        margin: 2rem auto;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .marquee marquee{
+        font-size: 3.2rem;
+        color: white;
+        font-family: cursive;
+        text-transform: uppercase;
+    }
+     /* *==================================== section marque End ======================================   */
+}
+
+ /* *==================================== Header End ======================================   */
