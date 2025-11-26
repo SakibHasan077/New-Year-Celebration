@@ -200,4 +200,53 @@ main{
         }
     }
     /* *==================================== Place Date Time section End ======================================   */
+    .offer_24{
+        width: 85rem;
+        height: 40rem;
+        background: linear-gradient(0deg , #ff7c7c86 0%  ,  rgb(255 85 85 / 0%) 100%);
+        margin: 10rem auto 0;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+        text-align: center;
+        .item_1 {
+            .box_1{
+                font-size: 1.5rem;
+                margin: 1.5rem 0;
+                color: #FF0000;
+            }
+            .box_2{
+                color: #070211;
+                font-size: 3rem;
+                margin: -.5rem 0;
+            }
+            .box_3{
+                font-size: 1.5rem ;
+                color: #07021199;
+                margin: 1.5rem;
+            }
+        }
+        .item_2{
+            & img{
+                width: 25rem;
+                padding: 3rem;
+                border: 1rem solid red;
+                border-radius: 50%;
+            }
+        }
+        .item_3{
+            & h2{
+                color: red;
+                font-size: 3.5rem;
+                margin: 3rem;
+            }
+            & p{
+                font-size: 1.5rem;
+                color: #07021199;
+                margin: -2rem -1.5rem 1.5rem 0;
+            }
+        }
+    }
+    /* *==================================== offer_24 section End ======================================   */
 }
