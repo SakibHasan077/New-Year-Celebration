@@ -305,4 +305,33 @@ main {
     }
   }
   /* *==================================== discount section End ======================================   */
+  .portfolio {
+    margin-top: 10rem;
+    .box_1 {
+      color: #ff0000;
+      font-size: 1.7rem;
+      margin: 1.7rem 0;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 3.8rem;
+      margin: -1.5rem 0 1.5rem;
+      color: #070211;
+    }
+    .box_3 {
+      font-size: 1.5rem;
+      margin: 1.5rem 0;
+      color: #07021199;
+    }
+    .image_box {
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      & img {
+        width: 27rem;
+      }
+    }
+  }
+  /* *==================================== portfolio section End ======================================   */
 }
