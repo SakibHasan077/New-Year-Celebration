@@ -273,4 +273,36 @@ main {
     }
   }
   /* *==================================== function section End ======================================   */
+  .discount {
+    height: 40rem;
+    margin-top: 10rem;
+    /* background-color: #7d7373; */
+    border-radius: 1rem;
+    .item_1 {
+      position: relative;
+      .image_1 {
+        width: 100%;
+        position: relative;
+        top: 25.25rem;
+      }
+      .image_2 {
+        width: 50rem;
+        position: relative;
+        bottom: 17rem;
+        left: -10px;
+      }
+      .image_3 {
+        width: 25rem;
+        position: absolute;
+        right: 0;
+        top: 1px;
+      }
+      .image_4 {
+        width: 20rem;
+        position: absolute;
+        top: 3rem;
+      }
+    }
+  }
+  /* *==================================== discount section End ======================================   */
 }
